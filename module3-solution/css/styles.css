@@ -1,0 +1,42 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: black
+}
+
+#header-nav {
+  background-color: #f3f3f3
+}
+
+#header-nav .navbar-brand {
+  color: black;
+}
+
+#header-nav .navbar-nav a{
+  color: black;
+}
+
+#collapsable-nav #nav-list {
+  margin: 0;
+}
+
+#nav-list li {
+  padding: 5px 0;
+}
+
+#nav-list li:not(:last-of-type) {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.tall-section {
+  padding: 10px 20px;
+  height: 800px;
+  text-align: justify;
+  background-color: #e3e3e3;
+}
+
+.tall-section div h4 {
+  margin-top: 0;
+}
